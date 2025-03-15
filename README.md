@@ -9,7 +9,7 @@ Question 2:
 
 Question 3 Rewrite Enqueue and Dequeue to detect Underflow and Overflow:
 
-Enqueue(Q,x) {
+  Enqueue(Q,x) {
   if (Q[Q.tail] == Null) {
   Q[Q.tail]= x;
   if (Q.tail == Q.length) {
@@ -21,6 +21,7 @@ Enqueue(Q,x) {
   return "Overflow"
   }
 }
+
 
 Dqueue(Q) {
 if (Q[Q.head! = Null) {
